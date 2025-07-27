@@ -51,7 +51,7 @@ Compile the workspace:
 ```shell
 $ cd ~/DRL-robot-navigation/catkin_ws
 ### Compile
-$ catkin_make_isolated
+$ catkin_make
 ```
 
 Open a terminal and set up sources:
