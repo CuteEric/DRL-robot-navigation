@@ -68,6 +68,7 @@ $ source devel_isolated/setup.bash
 Run the training:
 ```shell
 $ cd ~/DRL-robot-navigation/TD3
+$ source ~/DRL-robot-navigation/catkin_ws/devel/setup.sh
 $ python3 train_velodyne_td3.py
 ```
 
@@ -85,6 +86,7 @@ $ killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher g
 Once training is completed, test the model:
 ```shell
 $ cd ~/DRL-robot-navigation/TD3
+$ source ~/DRL-robot-navigation/catkin_ws/devel/setup.sh
 $ python3 test_velodyne_td3.py
 ```
 
